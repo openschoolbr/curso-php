@@ -1,0 +1,34 @@
+{
+  "title": "Curso de PHP",
+  "language": "pt-BR",
+  "author": "Open School - A escola livre",
+  "root": "./manuscript",
+  "structure": {
+    "readme": "readme.md",
+    "glossary": "glossary.md",
+    "summary": "summary.md"
+  },
+  "plugins": [
+    "disqus",
+    "ga",
+    "github",
+    "prism",
+    "-highlight",
+    "github-edit"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "openschoolbr"
+    },
+    "ga": {
+      "token": ""
+    },
+    "github": {
+      "url": "https://github.com/openschoolbr/curso-php"
+    },
+    "github-edit": {
+        "repo": "openschoolbr/curso-php",
+        "branch": "master/manuscript"
+    }
+  }
+}

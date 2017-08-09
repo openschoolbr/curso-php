@@ -1,0 +1,46 @@
+{
+  "name": "openschoolbr-curso-php",
+  "version": "0.0.1",
+  "description": "Curso de PHP da Open School",
+  "dependencies": {
+    "gh-pages": "^0.12.0",
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-chart": "^0.2.0",
+    "gitbook-plugin-code-editor": "^1.2.1",
+    "gitbook-plugin-codesnippet": "^1.2.0",
+    "gitbook-plugin-codepen": "^0.1.2",
+    "gitbook-plugin-code-highlighter": "^1.0.7",
+    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-gist": "^1.0.0",
+    "gitbook-plugin-include-codeblock": "^3.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-jsfiddle": "^1.0.0",
+    "gitbook-plugin-wabtheme": "^0.0.1",
+    "gitbook-plugin-zingchart": "^2.1.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  },
+  "scripts": {
+    "prepare": "gitbook install",
+    "dev": "npm run prepare && gitbook serve",
+    "build": "npm run prepare && rm -rf _book && gitbook build",
+    "publish": "npm run build && ./publish.sh",
+    "pdf": "gitbook pdf ./ ./dist/php-like-a-boss.pdf",
+    "epub": "gitbook epub ./ ./dist/php-like-a-boss.epub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openschoolbr/curso-php.git"
+  },
+  "keywords": [
+    "PHP"
+  ],
+  "author": "@wilcorrea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openschoolbr/curso-php/issues"
+  },
+  "homepage": "https://github.com/openschoolbr/curso-phps#readme"
+}
