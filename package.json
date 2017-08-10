@@ -27,8 +27,8 @@
     "dev": "npm run prepare && gitbook serve",
     "build": "npm run prepare && rm -rf _book && gitbook build",
     "publish": "npm run build && ./publish.sh",
-    "pdf": "gitbook pdf ./ ./dist/php-like-a-boss.pdf",
-    "epub": "gitbook epub ./ ./dist/php-like-a-boss.epub"
+    "pdf": "gitbook pdf ./ ./dist/curso-php.pdf",
+    "epub": "gitbook epub ./ ./dist/curso-php.epub"
   },
   "repository": {
     "type": "git",
