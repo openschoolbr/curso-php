@@ -1,4 +1,4 @@
-# Curso de PHp
+# Curso de PHP
 ----
 
 README
