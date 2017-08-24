@@ -1,6 +1,6 @@
-# Estruturas de controle
+# Funções importantes
 ----
 
-Estruturas de controle
+Funções importantes
 
 ----

@@ -1,6 +1,6 @@
-# Estruturas de controle
+# Funções
 ----
 
-Estruturas de controle
+Funções
 
 ----
