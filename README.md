@@ -27,7 +27,9 @@
 
 ----
 
-###### Powered by Gitbook / made with ♥
+###### Powered by Gitbook | made with ♥ by [Open School Brasil](https://openschoolbr.github.io/)
+
+###### Special thanks to [PHProgramando](https://github.com/PHProgramando/phprogramando)
 
 ----
 (https://toolchain.gitbook.com/syntax/markdown.html)
