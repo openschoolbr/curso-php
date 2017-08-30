@@ -1,6 +1,6 @@
-# Funções importantes
+# Tratamentos de Erros
 ----
 
-Funções importantes
+Tratamentos de erros
 
 ----
